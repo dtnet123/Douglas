@@ -1,0 +1,288 @@
+
+/* Universal */
+
+*{
+    font-family: 'Poiret One', cursive;
+}
+
+.font-curs{
+    font-family: 'Bad Script', cursive !important;
+}
+
+h3 {
+  font-family: 'Bad Script';
+  /* text-decoration: ; */
+}
+
+/* Navbar + Cover Section */
+
+.cover{
+    background-image: url(/thewebsite/assets/img/goluboi-fon-piony-rozovye-butony.jpg);
+    opacity: 1;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.navbar{
+    margin-left: 470px;
+}
+
+
+.nav-con{
+    border-radius: 5px;
+    text-align: center;
+    width: 360px;
+}
+
+.nav-item:hover{
+    background-color:#ffdcdc;
+    border-radius: 2.5px;
+    transition-duration: 0.4s;
+}
+
+.fixed-top{
+    opacity: 0.9;
+}
+
+.trans{
+    background-color: cornsilk !important;
+} 
+
+.cover-row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.transbox {
+    background-color: #e29797;
+    border: 0.5px solid #e29797;
+    opacity: 0.8;
+width: 350px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+margin-top: 250px;
+  }
+  
+.transbox h1 {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+    display: flex;
+    flex-wrap: wrap;
+justify-content: center;
+text-align: center;
+  }
+
+/* jackiechanyt & dtnet Section */
+
+.djBg{
+    background: #E8CBC0;
+    background: -webkit-linear-gradient(to right, #E8CBC0, #636FA4);
+    background: linear-gradient(to right, #E8CBC0, #636FA4);
+    min-height: 100vh;
+}
+
+.title{
+    font-size: 55px;
+    margin-top: 180px;
+}
+
+.sub-head{
+    font-size: 26px;
+    margin-left: 280px;
+}
+
+.heart-wrap{
+    margin-left: 300px;
+    margin-bottom: -90px;
+}
+
+
+/* css heartbeat */
+.icon-heart {
+    height:2em;
+    width:2em;
+    display:inline-block;
+    justify-content: center;
+    position: relative;
+  }
+  .icon-heart:before, 
+  .icon-heart:after,
+  .icon-heart span:before, 
+  .icon-heart span:after {
+    content:"";
+  }
+  /* left hump */
+  .icon-heart:before {
+    position:absolute;
+    left:.1em;
+    top:0px;
+    transform: rotate(-45deg);
+    background:#d90000;
+    height:2em;
+    width:1.2em;
+    border-top-left-radius: 3em;
+    border-top-right-radius: 3em;
+  }
+  /* right hump */
+  .icon-heart:after {
+    position:absolute;
+    right:.12em;
+    top:0px;
+    transform: rotate(45deg);
+    background:#d90000;
+    height:2em;
+    width:1.2em;
+    border-top-left-radius: 3em;
+    border-top-right-radius: 3em;
+  }
+  /* the animated dot */
+  .icon-heart span.dot:after {
+    height: .075em;
+    width: .075em;
+    left:-0.1em;
+    top:50%;
+    background:#fff;
+    position:absolute;
+    z-index:999;
+    border-radius:100%;
+    -webkit-animation: heartbeat 2s linear 0s infinite; /* Chrome, Safari, Opera */
+    animation: heartbeat 2s linear 0s infinite;
+  }
+  /* straight part of line */
+  .icon-heart span.line {
+    height:1px;
+    background:rgba(249,218,255,.5);
+    top:1.1em;
+    position:absolute;
+    left:0em;
+    display:block;
+    width:2em;
+    z-index:996;
+  }
+  /* first line peak */
+  .icon-heart span.line:before {
+    height:.5em;
+    top:-.23em;
+    position:absolute;
+    left:.4em;
+    display:block;
+    width:.5em;
+    z-index:998;
+    transform: rotate(-45deg);
+    border-top:1px solid rgba(249,218,255,.5);
+    border-right:1px solid rgba(249,218,255,.5);
+    z-index:998;
+    background:#d90000;
+  }
+  /* second line peak */
+  .icon-heart span.line:after {
+    height:.2em;
+    top:-.07em;
+    position:absolute;
+    left:1.2em;
+    display:block;
+    width:.2em;
+    z-index:997;
+    transform: rotate(-45deg);
+    border-top:1px solid rgba(249,218,255,.5);
+    border-right:1px solid rgba(249,218,255,.5);
+    z-index:998;
+    background:#d90000;
+  }
+  /* /css heartbeat */
+  .icon-heart {
+    zoom:3;
+  }
+  /* animation css */
+  /* Chrome, Safari, Opera */
+  @-webkit-keyframes heartbeat {
+    0%   {background:rgba(255,255,255,0); left:-.4em; top:55%;}
+    20%  {background:rgba(255,255,255,.5); left:.3em; top:55%;}
+    35%  {background:rgba(255,255,255,1); left:.6em; top:38%;}
+    45%  {background:rgba(255,255,255,.5); left:.9em; top:55%;}
+    55%  {background:rgba(255,255,255,.5); left:1.1em; top:55%;}
+    65%  {background:rgba(255,255,255,1); left: 1.3em; top:48%;}
+    75%  {background:rgba(255,255,255,.5); left:1.4em; top:55%;}
+    100% {background:rgba(255,255,255,0); left:2.2em; }
+  }
+  
+  /* Standard syntax */
+  @keyframes heartbeat {
+    0%   {background:rgba(255,255,255,0); left:-.4em; top:55%;}
+    20%  {background:rgba(255,255,255,.5); left:.3em; top:55%;}
+    35%  {background:rgba(255,255,255,1); left:.6em; top:38%;}
+    45%  {background:rgba(255,255,255,.5); left:.9em; top:55%;}
+    55%  {background:rgba(255,255,255,.5); left:1.1em; top:55%;}
+    65%  {background:rgba(255,255,255,1); left: 1.3em; top:48%;}
+    75%  {background:rgba(255,255,255,.5); left:1.4em; top:55%;}
+    100% {background:rgba(255,255,255,0); left:2.2em; }
+  }
+
+.bridge1{
+    background: #f5f5f5;
+    height: 100px;
+}
+
+
+/* Timeline Section */
+
+  ul.timeline {
+    list-style-type: none;
+    position: relative;
+    padding-left: 1.5rem;
+    padding-bottom: 40px;
+}
+
+ /* Timeline vertical line */
+
+ul.timeline:before {
+    content: ' ';
+    background: #fff;
+    display: inline-block;
+    position: absolute;
+    left: 16px;
+    width: 4px;
+    height: 100%;
+    z-index: 400;
+    border-radius: 1rem;
+}
+
+li.timeline-item {
+    margin: 20px 0;
+}
+
+/* Timeline item arrow */
+
+.timeline-arrow {
+    border-top: 0.5rem solid transparent;
+    border-right: 0.5rem solid #fff;
+    border-bottom: 0.5rem solid transparent;
+    display: block;
+    position: absolute;
+    left: 2rem;
+}
+
+/* Timeline item circle marker */
+
+li.timeline-item::before {
+    content: ' ';
+    background: #ddd;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    left: 11px;
+    width: 14px;
+    height: 14px;
+    z-index: 400;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.text-gray {
+    color: #999;
+}
